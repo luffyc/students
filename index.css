@@ -1,0 +1,117 @@
+    @font-face {
+	  font-family: "myfont bold";
+	  src: local("myriad-set-pro_semibold"), url("fonts/myriad-set-pro_semibold.woff") format("woff"), url("/fonts/myriad-set-pro_semibold.eot") format("eot"), url("/fonts/myriad-set-pro_semibold.ttf") format("ttf"), url("/fonts/myriad-set-pro_semibold.svg") format("svg");
+	}
+
+	@font-face {
+	  font-family: "myfont ethin";
+	  src: local("myriad-set-pro_extrathin"), url("fonts/myriad-set-pro_extrathin.woff") format("woff"), url("/fonts/myriad-set-pro_extrathin.eot") format("eot"), url("/fonts/myriad-set-pro_extrathin.ttf") format("ttf"), url("/fonts/myriad-set-pro_extrathin.svg") format("svg");
+	}
+
+	@font-face {
+	  font-family: "myfont text";
+	  src: local("myriad-set-pro_text"), url("fonts/myriad-set-pro_text.woff") format("woff"), url("/fonts/myriad-set-pro_text.eot") format("eot"), url("/fonts/myriad-set-pro_text.ttf") format("ttf"), url("/fonts/myriad-set-pro_text.svg") format("svg");
+	}
+
+	@font-face {
+	  font-family: "myfont thin";
+	  src: local("myriad-set-pro_thin"), url("fonts/myriad-set-pro_thin.woff") format("woff"), url("/fonts/myriad-set-pro_thin.eot") format("eot"), url("/fonts/myriad-set-pro_thin.ttf") format("ttf"), url("/fonts/myriad-set-pro_thin.svg") format("svg");
+	}
+
+
+    body{
+    	font-family: 'myfont thin','微软雅黑';
+    	color:#fff;
+    }
+    #bg{
+        position: absolute;
+        margin:auto;
+        left:0;
+        right:0;
+        top:0;
+        bottom:0;
+        background:rgba(0,0,0,0.8);
+    }
+    .box{
+		width:880px;
+		height:auto;
+		padding:20px;
+		margin:20px auto;
+		text-align:center;
+	}
+	h1{
+		font-weight: normal;
+		padding:0 20px;
+		font-size: 28px;
+		font-family: 'myfont text';
+	}
+	.box table{
+		margin-top: 40px;
+		width:100%;
+		height:auto;
+	}
+	.box td{
+        display:block;
+        float:left;
+        text-align:center;
+        width:145px;
+        height:30px;
+        padding:15px 0;
+        font-size:16px;
+        font-family: 'myfont thin';
+        color:inherit;
+        line-height:30px;
+        border-bottom:1px solid #666;
+	}
+	.tr1 td{
+		font-family: 'myfont text';
+		font-size:18px;
+		color:inherit;
+		cursor: pointer;
+	}
+	tr span{
+		cursor:pointer;
+	}
+	.add{
+        float:right;
+        width:50px;
+        height:30px;
+        padding:20px 5px;
+        font-size: 22px;
+        cursor: pointer;
+        margin-right: 90px;
+	}
+	.remove{
+        float:right;
+        width:50px;
+        height:30px;
+        padding:20px 5px;
+        font-size: 20px;
+        cursor: pointer;
+        margin-right: 45px;
+	}
+	td input{
+		width:100%;
+		text-align:center;
+		border:none;
+		border-bottom:1px solid #fff;
+		outline:none;
+		background: #333;
+		font-size: 18px;
+		color:inherit;
+		font-family: inherit;
+	}
+	#tips-box{
+		width:300px;
+		height:40px;
+		margin:0 auto;
+	}
+	#tips{
+		width:300px;
+		height:40px;
+		font-size:18px;
+		color:inherit;
+		text-align:center;
+		line-height:40px;
+		display:none;
+	}
